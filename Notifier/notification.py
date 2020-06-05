@@ -15,13 +15,13 @@ break_message = 'Walk away for a few minutes!'
 
 def water():
     while True:
-        time.sleep(5)
+        time.sleep(600)
         notif.notify(water_title, water_message, app_name)
 
 
 def stretch():
     while True:
-        time.sleep(10)
+        time.sleep(1800)
         notif.notify(stretch_title, stretch_message, app_name)
 
 def take_break():
